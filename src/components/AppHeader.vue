@@ -63,7 +63,7 @@
     </section>
     
     <!-- PART OF THE MENU AN ORDINATION -->
-    <section>
+    <section class="d-flex justify-content-between align-items-center">
       <div class="d-flex align-items-center gap-2 mt-3">
         <figure>
           <img src="../../src/assets/img/logo.png" alt="Logo Gogrin">
@@ -75,19 +75,31 @@
         </div>
       </div>
 
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="d-flex gap-3 align-items-center">
+        <li>
+          <i class="bg-yellow rounded-circle p-2 fa-solid fa-magnifying-glass"></i>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <!-- <span>0</span> -->
+        </li>
+
+        <li>
+          <span class="btn bg-yellow buttons text-uppercase">order now</span>
+        </li>
       </ul>
     </section>
   </header>
 </template>
 
 <style scoped lang="scss">
+  @use '../styles/partials/variables' as *;
+  @use '../styles/partials/mixins' as *;
+  
   header {
     section:first-child {
-      background-color: rgba(0, 113, 103, 1);
+      background-color: $Green;
       color: white;
       height: 50px;
 
@@ -110,6 +122,42 @@
     section:last-child {
       margin: 0 auto;
       width: 90%;
+
+      ul {
+        li:nth-child(2) {
+          position: relative;
+          .fa-cart-shopping {
+            color: $Green;
+          }
+
+          // span {
+          //   position: absolute;
+          //   top: -10px;
+
+          //   background-color: $Yellow;
+          //   color: white;
+
+          //   border-radius: 50%;
+          //   width: 20px;
+          //   aspect-ratio: 1;
+          // }
+        }
+      }
+      
+
+      .bg-yellow {
+        background-color: $Yellow;
+        color: white;
+      }
+
+      .buttons {
+        padding: 10px;
+        border-radius: 0px 15px 0px 15px;
+      }
+
+      .buttons:hover {
+        background-color: rgba(238, 159, 3, 0.6);
+      }
     }
   }
 </style>
