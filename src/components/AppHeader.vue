@@ -105,8 +105,7 @@
       height: 50px;
 
       div{
-        margin: 0 auto;
-        width: 90%;
+        @include GeneralWidth;
   
         ul {
           padding-left: 0px;
@@ -121,8 +120,7 @@
     }
 
     section:last-child {
-      margin: 0 auto;
-      width: 90%;
+      @include GeneralWidth;
 
       ul {
         li:nth-child(2) {
