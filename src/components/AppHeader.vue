@@ -77,7 +77,7 @@
 
       <ul class="d-flex gap-3 align-items-center">
         <li>
-          <i class="bg-yellow rounded-circle p-2 fa-solid fa-magnifying-glass"></i>
+          <i class="bg-yellow text-white rounded-circle p-2 fa-solid fa-magnifying-glass"></i>
         </li>
 
         <li>
@@ -86,7 +86,7 @@
         </li>
 
         <li>
-          <span class="btn bg-yellow buttons text-uppercase">order now</span>
+          <span class="btn bg-yellow buttons">order now</span>
         </li>
       </ul>
     </section>
@@ -96,6 +96,7 @@
 <style scoped lang="scss">
   @use '../styles/partials/variables' as *;
   @use '../styles/partials/mixins' as *;
+  @use '../styles/general.scss' as *;
   
   header {
     section:first-child {
@@ -142,21 +143,6 @@
           //   aspect-ratio: 1;
           // }
         }
-      }
-      
-
-      .bg-yellow {
-        background-color: $Yellow;
-        color: white;
-      }
-
-      .buttons {
-        padding: 10px;
-        border-radius: 0px 15px 0px 15px;
-      }
-
-      .buttons:hover {
-        background-color: rgba(238, 159, 3, 0.6);
       }
     }
   }

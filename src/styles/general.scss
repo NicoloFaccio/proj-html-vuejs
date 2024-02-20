@@ -8,3 +8,31 @@ li {
 a {
     text-decoration: none;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-yellow {
+    background-color: rgba(238, 159, 3, 1);
+    text-transform: uppercase;
+}
+
+.bg-yellow:hover {
+  background-color: rgba(238, 159, 3, 0.6);
+}
+
+.bg-green {
+    background-color: rgba(0, 113, 103, 1);
+    text-transform: uppercase;
+}
+
+.bg-green:hover {
+  background-color: rgba(0, 113, 103, 0.6);
+}
+
+.buttons {
+  padding: 10px;
+  border-radius: 0px 15px 0px 15px;
+  color: white;
+}
