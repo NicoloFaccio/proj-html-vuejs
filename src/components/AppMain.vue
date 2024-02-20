@@ -96,7 +96,80 @@
         <h4 class="text-white text-uppercase">gogrin all <span class="tx-yellow">organic</span> food</h4>
 
         <div class="container-fluid">
+          <div class="row">
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
 
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+            <div class="col-3">
+              <figure>
+                <img src="" alt="">
+              </figure>
+
+              <span>
+                
+              </span>
+            </div>
+          </div>
         </div>
 
         <button class="btn buttons bg-yellow text-white">Products</button>

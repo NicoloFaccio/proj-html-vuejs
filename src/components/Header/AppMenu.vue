@@ -5,7 +5,25 @@
       
     },
     data(){
-      return{}
+      return{
+        menuInformations: {
+          home: {
+            InfoHome: 'HOME-1',
+            InfoHome: 'HOME-2',
+            InfoHome: 'HOME-3',
+            InfoHome: 'HOME-LANDING',
+            InfoHome: 'HOME-VIDEO',
+          },
+          about: {
+            InfoAbout: 'ABOUT US',
+            InfoAbout: 'LOCATIONS AROUND THE WORLD',
+            InfoAbout: 'WELCOME ON OUR WEB-SITE '
+          },
+          service: {
+            infoService: 'CUSTOMER SERVICE'
+          },
+        }
+      }
     }
   }
 </script>
