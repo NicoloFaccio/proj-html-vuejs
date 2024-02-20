@@ -1,5 +1,6 @@
 <script>
-//  import AppImage from './Main/AppImage.vue';
+  import AppImage from '../components/Main/AppImage.vue';
+
 
   export default {
     name: 'AppMain', 
