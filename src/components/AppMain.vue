@@ -148,7 +148,7 @@
               <figure class="position-relative">
                 <img src="../assets/img/s2.jpg" alt="shop fruits">
 
-                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                <span class="span-sale position-absolute bg-yellow text-white fw-bolder py-1 px-2">
                   sale!
                 </span>
               </figure>
@@ -178,7 +178,7 @@
               <figure class="position-relative">
                 <img src="../assets/img/s1.jpg" alt="shop fruits">
 
-                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                <span class="span-sale position-absolute bg-yellow text-white fw-bolder py-1 px-2">
                   sale!
                 </span>
               </figure>
@@ -195,7 +195,7 @@
               <figure class="position-relative">
                 <img src="../assets/img/s4.jpg" alt="shop fruits">
 
-                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                <span class="span-sale position-absolute bg-yellow text-white fw-bolder py-1 px-2">
                   sale!
                 </span>
               </figure>
@@ -225,7 +225,7 @@
               <figure class="position-relative">
                 <img src="../assets/img/s9.jpg" alt="shop fruits">
 
-                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                <span class="span-sale position-absolute bg-yellow text-white fw-bolder py-1 px-2">
                   sale!
                 </span>
               </figure>
@@ -258,24 +258,46 @@
       </div>
 
       <!-- PART OF THE TESTIMONY -->
-      <div>
-        <figure>
-          <img src="" alt="grammar image">
-        </figure>
-      </div>
-
-      <p>
-
-      </p>
-
-      <div>
-        <figure>
-          <img src="" alt="">
-        </figure>
+      <div class="d-flex flex-column align-items-center">
+        <div>
+          <i class="tx-green fa-solid fa-quote-left"></i>
+        </div>
         
-        <figure>
-          <img src="" alt="">
-        </figure>
+  
+        <p class="text-center fw-bold">
+          "Dessert pudding dessert jelly beans cupcake sweet caramels gingerbread. Fruitcake biscuit cheesecake. <br> Cookie topping sweets muffine pudding tart bear claw sugar plum croissant". We started as a small legal <br> consultancy. We have proved our competence and had many satisfied clients. <br> <br>
+  
+          <span class="text-capitalize fw-bolder">
+            martha alex <br>
+            <span class="text-capitalize fw-bolder tx-yellow">manager</span>          
+          </span>
+        </p>
+  
+        <div class="d-flex gap-3">
+          <figure class="position-relative">
+            <img src="../assets/img/offer-img01.jpg" alt="offer's image">
+
+            <h3 class="title-position text-white">
+              Fresh gurden tomato <br> combo offer...&dollar;37
+            </h3>
+
+            <span class="tags-position">
+              <a class="text-uppercase text-white fw-bold" href="#">shop now</a>
+            </span>
+          </figure>
+  
+          <figure class="position-relative">
+            <img src="../assets/img/offer-img02.jpg" alt="offer's image">
+
+            <h3 class="title-position text-white">
+              Some organic healthy fruits <br> combo offer...&dollar;49
+            </h3>
+
+            <span class="tags-position">
+              <a class="text-uppercase text-white fw-bold" href="#">shop now</a>
+            </span>
+          </figure>
+        </div>
       </div>
     </section>
   </main>
@@ -306,12 +328,26 @@
         width: 85%;
 
         .span-sale {
-          position: absolute;
           right: 15px;
           top: 15px;
         }
       }
     }
+
+    .fa-quote-left {
+      font-size: 60px;
+    }
+
+    .tags-position {
+      position: absolute;
+      left: 30px;
+      bottom: 10px;
+    }
+
+    .title-position {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
   }
-  
 </style>
