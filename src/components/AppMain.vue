@@ -99,74 +99,106 @@
           <div class="row">
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s5.jpg" alt="shop fruits">
               </figure>
 
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
+
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s2.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s8.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s1.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s4.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s10.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s9.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
             <div class="col-3">
               <figure>
-                <img src="" alt="">
+                <img src="../assets/img/s7.jpg" alt="shop fruits">
               </figure>
+              
+              <h6 class="text-white text-capitalize">
+                fress Apple
+              </h6>
 
               <span>
-                
+                &dollar;18 
               </span>
             </div>
           </div>
