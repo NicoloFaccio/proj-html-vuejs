@@ -423,7 +423,7 @@
 
       </div>
 
-      <!-- PART OF THE BLOG -->
+      <!-- PART OF THE BLOG AND LOGOS -->
       <div>
         <div class="bg-title my-4 text-center">
           <span class="tx-yellow fw-bold">The news what we have</span>
@@ -432,31 +432,61 @@
 
         <div class="d-flex gap-3 justify-content-center">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="blog's images">
+            <img src="../assets/img/blo1-300x300.jpg" class="card-img-top image-blog" alt="blog's images">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="mb-2">
+                <span>
+                  <i class="fa-solid fa-user tx-yellow"></i> Gogrin
+                </span>
+                <span>
+                  <i class="fa-regular fa-clock tx-yellow"></i> 17 Dec 2022
+                </span>
+              </div>
+              <h5 class="card-title tx-green">Where I live, I am surrounded by fresh, organic food, so I eat very well.</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, possimus dolorem delectus accusantium voluptate consequatur explicabo.</p>
+              <a href="#" class="tx-green text-uppercase fw-bold">read more...</a>
             </div>
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="blog's images">
+            <img src="../assets/img/blo2-300x300.jpg" class="card-img-top" alt="blog's images">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="mb-2">
+                <span>
+                  <i class="fa-solid fa-user tx-yellow"></i> Gogrin
+                </span>
+                <span>
+                  <i class="fa-regular fa-clock tx-yellow"></i> 16 Dec 2022
+                </span>
+              </div>
+              <h5 class="card-title tx-green">What we get at home is 100% organic food. We are also 90% vegetarian.</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, possimus dolorem delectus accusantium voluptate consequatur explicabo.</p>
+              <a href="#" class="tx-green text-uppercase fw-bold">read more...</a>
             </div>
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="blog's images">
+            <img src="../assets/img/blo3-300x300.jpg" class="card-img-top" alt="blog's images">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="mb-2">
+                <span>
+                  <i class="fa-solid fa-user tx-yellow"></i> Gogrin
+                </span>
+                <span>
+                  <i class="fa-regular fa-clock tx-yellow"></i> 15 Dec 2022
+                </span>
+              </div>
+              <h5 class="card-title tx-green">If we as society are willing to have a preference for organic food farmer</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, possimus dolorem delectus accusantium voluptate consequatur explicabo.</p>
+              <a href="#" class="tx-green text-uppercase fw-bold">read more...</a>
             </div>
           </div>
+        </div>
+
+        <div>
+          <figure>
+            <img src="" alt="Logos">
+          </figure>
         </div>
       </div>
     </section>
@@ -538,6 +568,10 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+    }
+
+    .image-blog {
+     
     }
   }
 </style>
