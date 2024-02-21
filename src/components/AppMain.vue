@@ -63,7 +63,7 @@
       </div>
     </section>
 
-    <section class="d-flex flex-column align-items-center"> 
+    <section class="d-flex flex-column align-items-center position-relative"> 
       <!-- PART OF THE TEXT -->
       <div class="d-flex mt-5">
         <h3 class="tx-green">
@@ -501,6 +501,20 @@
           </figure>
         </div>
       </div>
+
+      <!-- PART OF THE EMAILS -->
+      <div class="d-flex justify-content-center gap-5 bg-mail position-absolute">
+        <h3 class="text-white text-uppercase">
+          subscribe our newsletter
+        </h3>
+
+        <form action="get" class="d-flex align-items-center">
+          <input type="mail" placeholder="your email">
+          <button class="btn text-uppercase bg-green rounded-0 text-white">
+            send
+          </button>
+        </form>
+      </div>
     </section>
   </main>
 </template>
@@ -581,5 +595,23 @@
       background-position: center;
       background-size: cover;
     }
+
+    .bg-mail {
+      background-image: url('../assets/img/counter-bg.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      width: 60%;
+  
+      padding-block: 30px;
+      bottom: -60px;
+
+      form {
+        button {
+          height: 30px;
+        }
+      }
+    }  
   }
 </style>
