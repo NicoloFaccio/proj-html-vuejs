@@ -483,9 +483,21 @@
           </div>
         </div>
 
-        <div>
+        <div class="d-flex justify-content-between align-items-center my-5 px-3">
           <figure>
-            <img src="" alt="Logos">
+            <img src="../assets/img/brand1.png" alt="Logos">
+          </figure>
+
+          <figure>
+            <img src="../assets/img/brand2.png" alt="Logos">
+          </figure>
+
+          <figure>
+            <img src="../assets/img/brand3.png" alt="Logos">
+          </figure>
+
+          <figure>
+            <img src="../assets/img/brand4.png" alt="Logos">
           </figure>
         </div>
       </div>
@@ -568,10 +580,6 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-    }
-
-    .image-blog {
-     
     }
   }
 </style>
