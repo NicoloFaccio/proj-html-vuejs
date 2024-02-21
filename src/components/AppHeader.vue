@@ -82,7 +82,7 @@
 
         <li>
           <i class="fa-solid fa-cart-shopping"></i>
-          <!-- <span>0</span> -->
+          <span>0</span>
         </li>
 
         <li>
@@ -129,17 +129,10 @@
             color: $Green;
           }
 
-          // span {
-          //   position: absolute;
-          //   top: -10px;
-
-          //   background-color: $Yellow;
-          //   color: white;
-
-          //   border-radius: 50%;
-          //   width: 20px;
-          //   aspect-ratio: 1;
-          // }
+          span {
+            position: absolute;
+            top: -10px;
+          }
         }
       }
     }

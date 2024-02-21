@@ -137,7 +137,7 @@
               </figure>
 
               <h6 class="text-white text-capitalize">
-                fress Apple
+                fresh apple
               </h6>
 
               <span class="tx-yellow fw-bolder"> 
@@ -154,7 +154,7 @@
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress cobies
+                fresh cobies
               </h6>
 
               <span class="tx-yellow fw-bolder"> 
@@ -322,6 +322,143 @@
           <span class="text-white fw-bolder text-capitalize">award winning</span>
         </div>
       </div>
+
+      <!-- PART OF THE SALES AND THE APPOIMENT -->
+      <div>
+        <div>
+          <div class="bg-title my-4 text-center">
+            <span class="tx-yellow fw-bold">Running week top seling</span>
+            <h3 class="text-uppercase tx-green">top <span class="tx-yellow">trending</span> organic food</h3>
+          </div>
+
+          <div class="d-flex justify-content-center gap-3">
+            <div class="card" style="width: 18rem;">
+              <figure class="text-center">
+                <img src="../assets/img/s5.jpg" class="card-img-top" alt="fruits images">
+
+                <h6 class="fw-bold text-capitalize">
+                  fress Apple
+                </h6>
+
+                <span> 
+                  &dollar;18 
+                </span>
+              </figure>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <figure class="text-center position-relative">
+                <img src="../assets/img/s2.jpg" class="card-img-top" alt="fruits images">
+
+                <span class="fruit-sale position-absolute bg-yellow text-white fw-bolder py-1 px-2">
+                  sale!
+                </span>
+
+                <h6 class="fw-bold text-capitalize">
+                  fresh cobies
+                </h6>
+
+
+                <span class="text-decoration-line-through pe-1">
+                  &dollar;18
+                </span>
+                <span class="text-decoration-underline"> 
+                  &dollar;17
+                </span>
+              </figure>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <figure class="text-center">
+                <img src="../assets/img/s8.jpg" class="card-img-top" alt="fruits images">
+
+                <h6 class="fw-bold text-capitalize">
+                  fresh watermelon
+                </h6>
+
+                <span> 
+                  &dollar;15
+                </span>
+              </figure>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <figure class="text-center position-relative">
+                <img src="../assets/img/s1.jpg" class="card-img-top" alt="fruits images">
+
+                <span class="fruit-sale position-absolute bg-yellow text-white fw-bolder py-1 px-2">
+                  sale!
+                </span>
+
+                <h6 class="fw-bold text-capitalize">
+                  fresh cobies
+                </h6>
+
+
+                <span class="text-decoration-line-through pe-1">
+                  &dollar;20
+                </span>
+                <span class="text-decoration-underline"> 
+                  &dollar;15
+                </span>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-5 text-center bg-image py-5">
+          <p class="text-white text-uppercase fw-bold">here you can get 100% tresh organic food</p>
+          <h3 class="text-white">Best organic food up to 25% off for all product</h3>
+          <p class="text-white px-3">The most beatiful people we have known defeat, known suffering, known struggle, known loss, and have found their way out of those depths. The most beatiful people we have known are those who have known defeat, known suffering</p>
+          <div>
+            <button class="btn bg-yellow text-white me-3">
+              <i class="fa-solid fa-comment"></i> +088123 65 906
+            </button>
+
+            <button class="btn bg-green text-white fw-bold">
+              apoinment
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PART OF THE BLOG -->
+      <div>
+        <div class="bg-title my-4 text-center">
+          <span class="tx-yellow fw-bold">The news what we have</span>
+          <h3 class="text-uppercase tx-green">gogrin latest <span class="tx-yellow">news</span> feed</h3>
+        </div>
+
+        <div class="d-flex gap-3 justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="blog's images">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="blog's images">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="blog's images">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </template>
@@ -383,6 +520,24 @@
       .single-number {
         border-right: 3px solid $Yellow;
       }
+    }
+
+    .bg-title {
+      background-image: url('../assets/img/title-shap.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    .fruit-sale {
+      top: 20px;
+      right: 20px;
+    }
+    .bg-image {
+      background-image: url('../assets/img/call-to-bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
   }
 </style>
