@@ -13,7 +13,36 @@
 <template>
   <footer>
     <section class="footer-section-1">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis eveniet tempore delectus vero voluptatibus enim sint aliquid et vel. Pariatur laborum molestiae, voluptatibus atque nobis quas aliquam exercitationem officiis.
+      <div>
+        <figure>
+          <img src="../assets/img/footer-logo.png" alt="logo footer">
+        </figure>
+        
+        <p class="text-white">
+          War should never be entered upon until every <br> agency of peace has failed not to be good 
+        </p>
+
+        <div>
+          <div>
+            <button type="button" class="btn bg-green mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+              <i class="text-white fa-brands fa-facebook-f"></i>
+            </button>
+
+            <button type="button" class="btn bg-green mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+              <i class="text-white fa-brands fa-google-plus-g"></i>
+            </button>
+  
+            <button type="button" class="btn bg-green mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+              <i class="text-white fa-brands fa-x-twitter"></i>
+            </button>
+  
+            <button type="button" class="btn bg-green mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+              <i class="text-white fa-brands fa-pinterest"></i>
+            </button>
+          </div>
+          
+        </div>
+      </div>
     </section>
   </footer>
 </template>
@@ -26,5 +55,12 @@
     background-size: cover;
 
     padding-top: 100px;
+
+    > div {
+      margin: 0 auto;
+      width: 60%;
+
+      padding-bottom: 30px;
+    }
   }
 </style>
