@@ -299,6 +299,29 @@
           </figure>
         </div>
       </div>
+
+      <!-- PART OF THE NUMBERS -->
+      <div class="bg-numbers d-flex justify-content-center">
+        <div class="single-number d-flex flex-column align-items-center p-2">
+          <span class="tx-yellow fs-1 fw-bold">29+</span>
+          <span class="text-white fw-bolder">Years of Expenrienced</span>
+        </div>
+
+        <div class="single-number d-flex flex-column align-items-center p-2">
+          <span class="tx-yellow fs-1 fw-bold">200+</span>
+          <span class="text-white fw-bolder text-capitalize">everyday online delivery</span>
+        </div>
+
+        <div class="single-number d-flex flex-column align-items-center p-2">
+          <span class="tx-yellow fs-1 fw-bold">20K</span>
+          <span class="text-white fw-bolder text-capitalize">client satysfaction</span>
+        </div>
+
+        <div class="d-flex flex-column align-items-center p-2">
+          <span class="tx-yellow fs-1 fw-bold">30+</span>
+          <span class="text-white fw-bolder text-capitalize">award winning</span>
+        </div>
+      </div>
     </section>
   </main>
 </template>
@@ -338,16 +361,28 @@
       font-size: 60px;
     }
 
+    .title-position {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+
     .tags-position {
       position: absolute;
       left: 30px;
       bottom: 10px;
     }
 
-    .title-position {
-      position: absolute;
-      top: 10px;
-      left: 30px;
+    .bg-numbers {
+      background-image: url('../assets/img/milesim-bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+
+      .single-number {
+        border-right: 3px solid $Yellow;
+      }
     }
   }
 </style>
