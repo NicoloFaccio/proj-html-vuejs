@@ -63,7 +63,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="d-flex flex-column align-items-center"> 
       <!-- PART OF THE TEXT -->
       <div class="d-flex mt-5">
         <h3 class="tx-green">
@@ -82,7 +82,7 @@
       </div>
 
       <!-- PART OF THE PRODUCTS -->
-      <div class="shop-products d-flex flex-column align-items-center">
+      <div class="shop-products d-flex flex-column align-items-center my-5">
         <span class="fw-bolder tx-yellow text-capitalize mt-5">
           tranding online store
         </span>
@@ -95,9 +95,43 @@
 
         <h4 class="text-white text-uppercase">gogrin all <span class="tx-yellow">organic</span> food</h4>
 
-        <div class="container-fluid">
+        <!-- LIST OF POSSIBLITIES -->
+        <ul class="d-flex gap-2 my-4">
+          <li>
+            <a href="#" class="text-white text-capitalize text-decoration-none">
+              all product
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-white text-capitalize text-decoration-none">
+              apple
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-white text-capitalize text-decoration-none">
+              food
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-white text-capitalize text-decoration-none">
+              orange
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-white text-capitalize text-decoration-none">
+              vegetable
+            </a>
+          </li>
+        </ul>
+
+        <!-- PRODUCTS AND PRICES -->
+        <div class="container-fluid prices-products">
           <div class="row">
-            <div class="col-3">
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
               <figure>
                 <img src="../assets/img/s5.jpg" alt="shop fruits">
               </figure>
@@ -106,105 +140,142 @@
                 fress Apple
               </h6>
 
-              <span>
+              <span class="tx-yellow fw-bolder"> 
                 &dollar;18 
               </span>
             </div>
-            <div class="col-3">
-              <figure>
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
+              <figure class="position-relative">
                 <img src="../assets/img/s2.jpg" alt="shop fruits">
+
+                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                  sale!
+                </span>
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                fress cobies
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                <span class="tx-yellow text-decoration-line-through opacity-75">&dollar;18</span> &dollar;17 
               </span>
             </div>
-            <div class="col-3">
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
               <figure>
                 <img src="../assets/img/s8.jpg" alt="shop fruits">
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                fresh watermelon 
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                &dollar;15
               </span>
             </div>
-            <div class="col-3">
-              <figure>
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
+              <figure class="position-relative">
                 <img src="../assets/img/s1.jpg" alt="shop fruits">
+
+                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                  sale!
+                </span>
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                organic juice
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                <span class="tx-yellow text-decoration-line-through opacity-75">&dollar;20</span> &dollar;15 
               </span>
             </div>
-            <div class="col-3">
-              <figure>
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
+              <figure class="position-relative">
                 <img src="../assets/img/s4.jpg" alt="shop fruits">
+
+                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                  sale!
+                </span>
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                fresh blueberries 
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                <span class="tx-yellow text-decoration-line-through opacity-75">&dollar;19</span> &dollar;14 
               </span>
             </div>
-            <div class="col-3">
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
               <figure>
                 <img src="../assets/img/s10.jpg" alt="shop fruits">
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                organic letus 
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                &dollar;23
               </span>
             </div>
-            <div class="col-3">
-              <figure>
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
+              <figure class="position-relative">
                 <img src="../assets/img/s9.jpg" alt="shop fruits">
+
+                <span class="span-sale bg-yellow text-white fw-bolder py-1 px-2">
+                  sale!
+                </span>
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                red gajor
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                <span class="tx-yellow text-decoration-line-through opacity-75">&dollar;29</span> &dollar;26 
               </span>
             </div>
-            <div class="col-3">
+            <div class="col-3 mb-3 d-flex flex-column align-items-center">
               <figure>
                 <img src="../assets/img/s7.jpg" alt="shop fruits">
               </figure>
               
               <h6 class="text-white text-capitalize">
-                fress Apple
+                naga pepper 
               </h6>
 
-              <span>
-                &dollar;18 
+              <span class="tx-yellow fw-bolder"> 
+                &dollar;21
               </span>
             </div>
           </div>
         </div>
 
-        <button class="btn buttons bg-yellow text-white">Products</button>
+        <button class="btn buttons bg-yellow text-white mb-5">Products</button>
+      </div>
+
+      <!-- PART OF THE TESTIMONY -->
+      <div>
+        <figure>
+          <img src="" alt="grammar image">
+        </figure>
+      </div>
+
+      <p>
+
+      </p>
+
+      <div>
+        <figure>
+          <img src="" alt="">
+        </figure>
+        
+        <figure>
+          <img src="" alt="">
+        </figure>
       </div>
     </section>
   </main>
@@ -229,6 +300,17 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+
+      .prices-products {
+        margin: 0 auto;
+        width: 85%;
+
+        .span-sale {
+          position: absolute;
+          right: 15px;
+          top: 15px;
+        }
+      }
     }
   }
   
